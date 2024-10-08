@@ -7,7 +7,7 @@ import java.sql.SQLException;
 
 public class Latihan_1 {
 
-    static final String db_unidha3 = "jdbc:mysql://localhost:3306/db_prakoop3_01";
+    static final String DB_Url= "jdbc:mysql://localhost:3306/db_unidha3";
     public static void main(String[]args){
     }
     
@@ -18,7 +18,7 @@ public class Latihan_1 {
             DriverManager.registerDriver(myDriver);
             System.out.println("Proses Deteksi Driver Berhasil");
             
-            final java.sql.Connection tersambung = DriverManager.getConnection (db_unidha3, "root", "");
+            final java.sql.Connection tersambung = DriverManager.getConnection (DB_Url, "root", "");
             System.out.println("Koneksi Database Berhasil");
         } catch (final SQLException ex) {
             System.out.println("Koneksi Database Gagal");
