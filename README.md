@@ -1,1 +1,0 @@
-# Pratikum_2
