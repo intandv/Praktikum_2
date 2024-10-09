@@ -22,7 +22,6 @@ public class Latihan_2 {
             System.out.println ("Koneksi Database Gagal") ;
             
         } 
-        Connection Test_Konek = null;
     return Test_Konek;
     }
 }
