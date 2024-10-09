@@ -7,6 +7,8 @@ import java.sql.SQLException;
 
 public class Latihan_2 {
     static final String DB_Url = "jdbc:mysql://localhost:3306/db_Unidha3";
+    public static void main(String[]args) {
+    }
     
     private static Connection Tes_Konek;
     public static Connection DB_Konek () throws SQLException,ClassNotFoundException {
